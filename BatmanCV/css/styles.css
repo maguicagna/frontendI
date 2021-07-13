@@ -1,0 +1,29 @@
+header{
+    text-align: center;
+}
+h1{
+    font-size: 35px;
+}
+h2{
+    font-size: 20px;
+}
+h1,h2{
+    background-color: #C4C4C4;
+    color: #005677;
+    letter-spacing: 10px;
+
+}
+.section{
+    margin: 0 auto;
+    width: 60%;
+    
+}
+.destacado{
+    font-weight: bold;
+}
+footer{
+    color: white;
+    background-color: #005677;
+    text-align: center;
+    
+}
