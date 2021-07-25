@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magui's Petshop</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <div class="barrita">
-            <p>Grandes ofertas en comederos</p>
-            <p>Español</p>
-            <p>$ARG</p>
+            <div>
+                <p>Grandes ofertas en comederos</p>
+            </div>
+            <div class="currency">
+                <p>Español</p>
+                <p>$ARG</p>
+            </div>
+
         </div>
-        <div class="nav">
-            <a href="#"><img src="img/Logo.png" alt="Front Cat&Dog"></a>
+        <div class="main-nav">
+            <div class="logo">
+                <a href="#"><img src="img/Logo.png" alt="Front Cat&Dog"></a>
+            </div>
             <nav>
-                <ul class="lista-nav" >
-                    <li><i class="fas fa-paw"></i> Categorias</li>
-                    <li><i class="fas fa-paw"></i> Pets</li>
-                    <li><i class="fas fa-paw"></i> Nosotros</li>
-                    <li><i class="fas fa-paw"></i> Contactanos</li>
+                <ul class="lista-nav">
+                    <li><a href="#"><i class="fas fa-paw"></i> Categorias</li></a>
+                    <li><a href="#"><i class="fas fa-paw"></i> Pets</li></a>
+                    <li><a href="#"><i class="fas fa-paw"></i> Nosotros</li></a>
+                    <li><a href="#"><i class="fas fa-paw"></i> Contactanos</li></a>
                 </ul>
             </nav>
         </div>
@@ -31,62 +41,79 @@
     <main>
         <section class="banner">
             <div class="texto-banner">
-                <p class="bienvenida">¡Es un placer tenerte aquí!<p>
+                <p class="bienvenida">¡Es un placer tenerte aquí!
+                <p>
                 <p>¡Comederos en descuento!</p>
                 <a href="#" class="button">Comederos</a>
             </div>
-            
+
         </section>
-        <div class="section">
-            <section>
+        <section class="destacados">
+            <div class="section">
                 <img src="img/pawprint 1.png" alt="">
                 <h2 class="titulo-destacados">Productos Destacados</h2>
-                <p class="lista-destacados">Comederos - Accesorios - Comida</p> 
-                <div class="productos-destacados">
-                    <div class="prod-dest-item">
-                        <img src="img/churrasquito.png" alt="churrasquitos">
-                        <p class="texto-destacados">Juguete Churrasquito</p>
-                        <p class="precio-destacados">$150</p>
-                    </div>
-                    <div class="prod-dest-item">
-                        <img src="img/comedero.png" alt="comedero">
-                        <p class="texto-destacados">Comedero para perro</p>
-                        <p class="precio-destacados">$250</p>
-                    </div>
-                    <div class="prod-dest-item">
-                        <img src="img/Huesito.png" alt="huesito">
-                        <p class="texto-destacados">Juguete Huesito</p>
-                        <p class="precio-destacados">$650</p>
-                    </div> 
+                <p class="lista-destacados">Comederos - Accesorios - Comida</p>
+            </div>
+
+            <div class="productos-destacados">
+                <div class="prod-dest-item">
+                    <img src="img/churrasquito.png" alt="churrasquitos">
+                    <p class="texto-destacados">Juguete Churrasquito</p>
+                    <p class="precio-destacados">$150</p>
                 </div>
-            
-            </section>
-        </div>
-        
+                <div class="prod-dest-item">
+                    <img src="img/comedero.png" alt="comedero">
+                    <p class="texto-destacados">Comedero para perro</p>
+                    <p class="precio-destacados">$250</p>
+                </div>
+                <div class="prod-dest-item">
+                    <img src="img/Huesito.png" alt="huesito">
+                    <p class="texto-destacados">Juguete Huesito</p>
+                    <p class="precio-destacados">$650</p>
+                </div>
+            </div>
+
+
+        </section>
+
 
     </main>
     <footer>
         <div class="footer-1">
-            <div>
-                <p><i class="fas fa-map-marker-alt"></i></p>
-                <p><i class="fas fa-phone"></i> </p>
-                <p><i class="far fa-envelope"> </i></p>
+            <div class="info">
+                <div class="iconos-info">
+                    <p><i class="fas fa-map-marker-alt"></i></p>
+                    <div>
+                        <h3>Ubicación</h3>
+                        <p class="sub-descrip">Calle, Provincia</p>
+                    </div>
+                </div>
+                <div class="iconos-info">
+                    <p><i class="fas fa-phone"></i></p>
+                    <div>
+                        <h3>Teléfono</h3>
+                        <p class="sub-descrip">Número de teléfono</p>
+                    </div>
+                </div>
+                <div class="iconos-info">
+                    <p><i class="far fa-envelope"></i></p>
+                    <div>
+                        <h3>Correo Electrónico</h3>
+                        <p class="sub-descrip">Dirección de Correo</p>
+                    </div>
+                </div>
             </div>
-            <div>
-                <h3>Ubicación</h3>
-                <p class="sub-descrip">Calle, Provincia</p>
-                <h3>Teléfono</h3>
-                <p class="sub-descrip">Número de teléfono</p>
-                <h3>Correo Electrónico</h3>
-                <p class="sub-descrip">Dirección de Correo</p> 
+            <div class="logo">
+                <img src="img/Logo copy.png" alt="">
             </div>
-            <img src="img/Logo copy.png" alt="">
+
         </div>
         <div class="footer-2">
             <p>Todos los derechos reservados</p>
         </div>
-        
+
     </footer>
-    
+
 </body>
+
 </html>

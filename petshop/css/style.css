@@ -1,39 +1,67 @@
 /* Estilos Generales */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
 /* Header */
 .barrita{
     background-color: #000;
+    display: flex;
+    height: 20px;
+    justify-content: space-around;
+}
+.currency{
+    display: flex;
 }
 .barrita p{
     color: #fff;
-    display: inline-block;
-    margin: 10px;
-}
-.nav{
-    background-color: #F0A83E;
+    font-size: 10px;
     
 }
-.lista-nav li{
-    display: inline-block;
-    padding: 10px;
+.main-nav{
+    align-items: center;
+    background-color: #F0A83E;
+    display: flex;
+    height: 62px;
+    justify-content: space-between;
+}
+.lista-nav{
     color: #fff;
+    display: flex;
+}
+.lista-nav li{
+
+    padding: 6px;
 }
 /* Main */
 .banner{
     background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     height: 409px;
     
 }
 .texto-banner{
-    margin: 0 auto;
+
     width: 40%;
     color: #3C2313;
     text-align: center;
+    
 
     
 }
@@ -55,8 +83,9 @@ body{
 .section{
     margin: 0 auto;
     margin-top: 20px;
-    text-align: center;
     width: 80%;
+    text-align: center;
+   
 }
 .titulo-destacados{
     color: #3C2313;
@@ -72,8 +101,12 @@ body{
     color: #F0A83E;
 
 }
-.productos-destacados div{
-    display: inline-block;
+.productos-destacados{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    
 }
 .prod-dest-item{
     background-color: #FBFAF6;
@@ -86,12 +119,15 @@ footer{
 .footer-1{
     background-color: #3C2313;
     color: #fff;
+    display: flex;
+    height: 284px;
+    justify-content: space-between;
+    padding: 10px 20px;
     
 }
-.footer-1 div{
-    display: inline-block;
-    margin-left: 20px;
-    
+.logo{
+    display: flex;
+    align-items: center;
 }
 .footer-1 h3{
     font-size: 20px;
@@ -103,11 +139,19 @@ footer{
     font-size: 10px;
     font-weight: 700;
     text-align: center;
-    padding: 4px;
+    
 }
-.iconos {
-    margin-bottom: 60px;
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 15%;
 }
+.iconos-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .sub-descrip{
     color: #8A8787;
     font-size: 10px;

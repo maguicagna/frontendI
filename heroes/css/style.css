@@ -1,0 +1,48 @@
+/*Estilos Generales*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*Header*/
+.mini-header{
+    background-color: #1CD1B0;
+    height: 38px;
+    padding: 2px;
+}
+.main-header{
+    background-color: #00669F;
+    height: 101px;
+}
+/*Main*/
+.container{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    height: 529px;
+    width: 300px;
+    margin: 154px 8px;
+}
+.portada-batman{
+    background-image: url(../img/portada_batman.png);
+    height: 193px;
+}
+.portada-harley{
+    background-image: url(../img/portada_harley.png);
+    height: 193px;
+}
+
+/*Footer*/
+
+/*Auto Rename Tag*/
