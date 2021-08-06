@@ -7,7 +7,11 @@
 }
 a{
     text-decoration: none;
-    color: white;
+    color: inherit ;
+
+}
+li{
+    list-style-type: none;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -15,34 +19,124 @@ body{
 /*Header*/
 .mini-header{
     background-color: #1CD1B0;
-    height: 38px;
     padding: 2px;
+    display: flex;
+    align-items: center;
+}
+.mini-header p{
+    font-size: 15px;
+    padding-left: 10px;
 }
 .main-header{
     background-color: #00669F;
-    height: 101px;
+}
+.logo-home{
+    display: flex;
+    align-items: center;
+}
+.logo-nombre{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+.nav{
+    color: white;
+    background-color: #001D2D;
+    padding: 10px;
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    margin-right: 4px;
+    
+}
+.nav-list li{
+    padding: 4px 18px;
 }
 /*Main*/
 .container{
-    width: 90%;
     margin: 0 auto;
-    text-align: center;
+    display: flex;
+        justify-content: space-around;
+    width: 80%;
 }
 .card{
-    display: inline-block;
+    box-shadow: 4px 4px 4px #b9b9b948;
+    border-radius: 12px;
+    
+    display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     height: 529px;
     width: 300px;
     margin: 154px 8px;
 }
+
+.avatar{
+    border-radius: 50%;
+    position: absolute;
+        left: 32%;
+        top: 68%;
+}
 .portada-batman{
     background-image: url(../img/portada_batman.png);
     height: 193px;
+    position: relative;
 }
 .portada-harley{
     background-image: url(../img/portada_harley.png);
     height: 193px;
+    position: relative;
+}
+.card-content{
+    background-color: #F3F3F3;
+    display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    min-height: 21rem;
+    padding: 0px 10px;
+}
+.card-content p{
+    color: #333333;
+    text-align: start;
+    padding: 6px;
+}
+.nombre-super{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 64px;
+}
+.boton{
+    background-color: #00669F;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+
+
+}
+.add-super{
+    color: #00669F;
+    font-size: 68px;
+    position: absolute;
+        top: 68%;
+        right: 5%;
+}
+/*Footer*/
+footer{
+    background-color: #00669F;
+    color:  #FFF9F9;
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    font-size: 16px;
+    padding: 12px;
+}
+/* Form */
+.contact-form{
+    display: flex;
+    flex-direction: column;
 }
 
-/*Footer*/
-
-/*Auto Rename Tag*/
